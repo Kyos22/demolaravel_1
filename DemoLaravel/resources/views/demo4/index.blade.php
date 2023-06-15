@@ -24,6 +24,7 @@
     <input type="submit" value="login">
 </form>
 
+
 <h3>Upload file</h3>
 <form method="post" action="{{url('/demo4/upload')}}"enctype="multipart/form-data" > 
     @csrf
